@@ -6,7 +6,7 @@ body {
 }
 
 img {
-    width: 90px;
+    width : 90px;
 }
 
 .star {
@@ -28,10 +28,12 @@ img {
     height: 150px;
 }
 
+
 .container {
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
 
 .birthdayCard {
@@ -48,6 +50,7 @@ img {
     transform: perspective(2500px) rotate(5deg);
     box-shadow: inset 100px 20px 100px rgba(0, 0, 0, .15), 0 10px 100px rgba(0, 0, 0, 0.3);
 }
+
 
 .birthdayCard:hover .cardFront {
     transform: rotateY(-160deg);
@@ -227,6 +230,7 @@ img {
     top: -80px;
     left: 64px;
 }
+
 
 .flame {
     position: absolute;
